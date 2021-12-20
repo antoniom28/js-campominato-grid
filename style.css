@@ -8,10 +8,15 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 10px 0;
 }
 
 main{
     background-color: aquamarine;
+}
+
+footer p{
+    margin: 20px 10px;
 }
 
 .title{
@@ -23,6 +28,11 @@ main{
 .title img{
     width: 35px;
     margin: 0 10px;
+}
+
+.title a{
+    text-decoration: none;
+    color: black;
 }
 
 .difficolta{
@@ -57,7 +67,7 @@ main{
 }
 
 .lampeggia{
-    height: 80vh;
+    height: 60vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -81,4 +91,8 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+#contenitore{
+    padding: 60px 0;
 }
